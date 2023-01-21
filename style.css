@@ -1,0 +1,215 @@
+/* IMPORT FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+/* ALL  */
+
+section {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: 6px 6px 6px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50vw;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.3em;
+    color: black;
+}
+
+.button {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    padding: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+.generated {
+    padding-top: 50px;
+    animation: fadeIn 1.5s;
+    -webkit-animation: fadeIn 1.5s;
+    -moz-animation: fadeIn 1.5s;
+    -o-animation: fadeIn 1.5s;
+    -ms-animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* NAVBAR  */
+
+header {
+    height: 10vh;
+    padding: 0 50px;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navlist a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    color: black;
+}
+
+
+
+/* ACCUEIL */
+
+.home {
+    background-color: rgb(23, 2, 69);
+}
+
+.choice_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.choice_container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.button_home {
+    background: linear-gradient(#3f308b, #5d48c6);
+}
+
+.button_home:hover {
+    background: linear-gradient(#6652cc, #7e70c5);
+}
+
+
+
+/* ANSWERS */
+
+.answers {
+    background-color: rgb(49, 5, 5);
+}
+
+.button_answers {
+    background: linear-gradient(rgb(90, 9, 9), rgb(149, 26, 26));
+}
+
+.button_answers:hover {
+    background: linear-gradient(rgb(167, 20, 20), rgb(245, 112, 112));
+}
+
+
+
+/* GOOD VIBES */
+
+.good_vibes {
+    background-color: #002737;
+}
+
+.button_good_vibes {
+    background: linear-gradient(#063d53, #0f4c65);
+}
+
+.button_good_vibes:hover {
+    background: linear-gradient(#0d6487, #2a7a9a);
+}
